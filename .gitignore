@@ -1,0 +1,8 @@
+*.tf1
+*.tfb
+BuildProcessTemplates/AzureContinuousDeployment.11.xaml
+BuildProcessTemplates/UpgradeTemplate.xaml
+BuildProcessTemplates/LabDefaultTemplate.11.xaml
+BuildProcessTemplates/DefaultTemplate.11.1.xaml
+.vs/
+$tf/
