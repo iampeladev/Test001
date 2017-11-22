@@ -45,16 +45,16 @@ a {
   Elements
   ================================================== */
 .btn {
-  background-color: #006699;
+  background-color: #006999a4;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 800;
-  color: #f9f9f9;
+  color: rgba(255, 255, 255, 0.75);
   padding: 15px 45px;
   border-radius: 50px;
 }
 
 .btn:hover {
-  background-color: #fa8a00;
+  background-color: #fa8100a4;
   color: #f9f9f9;
   font-weight: 700;
 }
@@ -286,6 +286,12 @@ a:hover {
   margin: 0;
 }
 
+#nav-menu-container:hover {
+  background-color: #fa8a00;
+  color: #fd0000;
+  font-weight: 700;
+}
+
 @media (max-width: 768px) {
   #nav-menu-container {
     display: none;
@@ -297,15 +303,15 @@ a:hover {
   padding: 22px 15px 18px 15px;
   text-decoration: none;
   display: inline-block;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.65);
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 17px;
   outline: none;
 }
 
 .nav-menu a:hover, .nav-menu li:hover > a, .nav-menu .menu-active > a {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 1);
 }
 
 .nav-menu ul {
@@ -315,7 +321,7 @@ a:hover {
 }
 
 .nav-menu ul li {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.904);
   border-top: 1px solid #f4f4f4;
 }
 
@@ -324,7 +330,7 @@ a:hover {
 }
 
 .nav-menu ul li:hover {
-  background: #006699;
+  background: #09a1fb;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -430,11 +436,11 @@ a:hover {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #006699;
+  color: #003e62;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #006699;
+  color: #003e62;
 }
 
 #mobile-body-overly {
